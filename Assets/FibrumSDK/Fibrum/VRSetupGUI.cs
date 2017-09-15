@@ -123,7 +123,7 @@ public class VRSetupGUI : MonoBehaviour {
 	{
 		#if UNITY_ANDROID && !UNITY_EDITOR
 		FibrumController.useCompassForAntiDrift = enableCompass.isOn;
-		FibrumController.vrCamera.EnableCompass(enableCompass.isOn);
+		//FibrumController.vrCamera.EnableCompass(enableCompass.isOn);
 		#endif
 	}
 
